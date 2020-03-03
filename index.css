@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(185, 44, 44);
+    /* background: url(pictures/index_background.jpeg) no-repeat fixed;
+    background-size: cover; */
+}
+
+/* header styles */
+header h1{
+    background-color: rgb(255, 252, 49);
+    height: 2.5em;
+    width: 16em;
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 1em;
+/* body styles */
