@@ -14,6 +14,65 @@ header h1{
     height: 2.5em;
     width: 16em;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: .7em;
     padding: 1em;
+    text-decoration: none;
+    color: rgb(185, 44, 44)
+}
+
+/* nav styles */
+.mainHeader{
+    background: url(/pictures/paper_background.jpg);
+    text-align: center;
+    padding: .5em;
+}
+.sidenav li:not(.mainHeader){
+    padding: .5em;
+    margin: .1em;
+    border-bottom: 1px black solid;
+}
+.sidenav{
+    float: right;
+    width: 11em;
+    background: rgb(255, 252, 49);
+    height: 25em;
+}
+.reviews div#rev1, .reviews div#rev2, .reviews div#rev3{
+    margin: 1em;
+    padding: 1em;
+    background-image: url(/pictures/paper_background.jpg);
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(185, 44, 44);
+}
+
+.sidenav a:hover {
+    color: rgb(110, 18, 18);
+    background-color: rgb(211, 208, 31);
+}
+
 /* body styles */
+body, nav{
+    background: url(/pictures/index_background.jpeg) no-repeat;
+}
+#main{
+    margin-top: 150px;
+    font-size: 1.5em;
+    height: 10em;
+    color: white;
+}
+#main, #reviews, #rev1, #rev2, #rev3{
+    margin-left: 3em;
+}
+body {
+    margin-right: 140px;
+    font-size: 1em; 
+    padding-right: 140px;
+}
+
+#rev1 img, #rev2 img, #rev3 img{
+    width: 1em;
+}
