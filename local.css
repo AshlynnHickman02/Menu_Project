@@ -1,0 +1,77 @@
+/* local styles for every page */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Raleway&family=Spartan:wght@500&display=swap');
+html{
+    height: 100%;
+    width: 100%;
+}
+
+/* header styles */
+
+header h1{
+    background-color: rgb(255, 252, 49);
+    height: 2.5em;
+    width: 16em;
+    font-size: 2em;
+    margin-top: .7em;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(185, 44, 44);
+    font-family: 'Acme', sans-serif;
+    border-top-right-radius: .5em;
+}
+
+/* nav styles */
+nav{
+    border: 1px solid black;
+}
+.mainHeader{
+    background: url(/pictures/paper_background.jpg);
+    padding: .5em;
+}
+.sidenav li:not(.mainHeader){
+    padding: .5em;
+    margin: .1em;
+    border-bottom: 1px black solid;
+}
+.sidenav{
+    float: right;
+    width: 11em;
+    background: rgb(255, 252, 49);
+    height: 25em;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(185, 44, 44);
+}
+.sidenav a:hover {
+    color: rgb(110, 18, 18);
+    background-color: rgb(211, 208, 31);
+}
+.sidenav, .mainHeader{
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+.mainHeader{
+    text-align: center;
+}
+/* body styles */
+h1:not(header), h2, h3, h4, h5, h6{
+    font-family: 'Spartan', sans-serif;
+}
+
+/* footer styles */
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgba(51, 51, 51, .7);
+    margin-left: 4em;
+    padding: .5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+footer a{
+    color: rgb(240, 46, 46);
+
+}
