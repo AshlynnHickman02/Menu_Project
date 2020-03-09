@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html{
+    background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
+}
+
+/* body styles */
+img{
+    width: 10%;
+}
+h3{
+    width: 20.48em;
+    background-color: rgb(255, 252, 49);
+    font-size: 25px;
+    border-top: 1px solid black;
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-bottom: 1em;
+}
+#spicy{
+    width: 1em;
+}
