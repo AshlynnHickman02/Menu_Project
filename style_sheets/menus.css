@@ -2,11 +2,24 @@
 
 html{
     background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+/* navigation styles */
+nav{
+    
+}
 /* body styles */
+table{
+    width: 85%;
+}
 img{
-    width: 10%;
+    float: left;
+    width: 200px;
+}
+th{
+    text-align: center;
 }
 h3{
     width: 20.48em;
@@ -19,4 +32,9 @@ h3{
 }
 #spicy{
     width: 1em;
+}
+
+table{
+    margin-top: .5em;
+    background-image: url(../pictures/paper_background.jpg);
 }
