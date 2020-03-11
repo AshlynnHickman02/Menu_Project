@@ -2,10 +2,7 @@
 
 html{
     background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
-    background-size: cover;
-    background-repeat: no-repeat;
 }
-
 /* navigation styles */
 nav{
     
