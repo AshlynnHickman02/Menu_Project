@@ -34,6 +34,8 @@ nav{
     border-bottom: 1px black solid;
 }
 .sidenav{
+    position: sticky;
+    top: 20px;
     float: right;
     width: 11em;
     background: rgb(255, 252, 49);

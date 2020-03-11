@@ -4,9 +4,7 @@ html{
     background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
 }
 /* navigation styles */
-nav{
-    
-}
+
 /* body styles */
 table{
     width: 85%;
@@ -29,6 +27,25 @@ h3{
 }
 #spicy{
     width: 1em;
+}
+
+/* flexbox */
+th{
+    order: 1;
+}
+table td:first-of-type{
+    order: 2;
+}
+table td:nth-of-type(2){
+    order: 3;
+}
+table, th, td{
+    border: 1px green solid;
+    justify-content: flex-start;
+}
+
+.prices{
+    order: 99;
 }
 
 table{
