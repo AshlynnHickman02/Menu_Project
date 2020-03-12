@@ -3,18 +3,37 @@
 html{
     background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
 }
-/* navigation styles */
 
 /* body styles */
-table{
+p.price{
+    background-color: red;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table, th, td{
+    border: 1px green solid;
+    text-align: left;
     width: 85%;
 }
-img{
-    float: left;
-    width: 200px;
+tr:last-child{
+    float: right; 
 }
-th{
-    text-align: center;
+table img{
+    width: 60%;
+}
+table th{
+   width: 20%;
+   text-align: left;
+}
+
+table tr{
+    width: 100%;
+}
+table td{
+    width: 25%;
 }
 h3{
     width: 20.48em;
@@ -28,27 +47,8 @@ h3{
 #spicy{
     width: 1em;
 }
-
-/* flexbox */
-th{
-    order: 1;
-}
-table td:first-of-type{
-    order: 2;
-}
-table td:nth-of-type(2){
-    order: 3;
-}
-table, th, td{
-    border: 1px green solid;
-    justify-content: flex-start;
-}
-
-.prices{
-    order: 99;
-}
-
-table{
+table tr{
+    border-image: url(../pictures/scroll.png) 30px cover;
     margin-top: .5em;
     background-image: url(../pictures/paper_background.jpg);
 }
