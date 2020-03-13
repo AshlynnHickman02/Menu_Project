@@ -27,7 +27,7 @@ nav{
     border: 1px solid black;
 }
 .mainHeader{
-    background: url(/pictures/paper_background.jpg);
+    background: url(../pictures/paper_background.jpg);
     padding: .5em;
 }
 .sidenav li:not(.mainHeader){
@@ -70,8 +70,6 @@ footer{
     color: white;
     text-align: center;
     background-color: rgba(51, 51, 51, .7);
-    margin-left: 4em;
-    padding: .5em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }

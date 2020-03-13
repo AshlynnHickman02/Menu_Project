@@ -1,3 +1,7 @@
+"use strict";
+
+window.onload = alert("WARNING! All pictures are not for public use! They are just placeholders. Please get pictures to replace to non-free ones!");
+
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
@@ -16,3 +20,5 @@ $(document).ready(function() {
 
 });
  /*Scroll to top when arrow up clicked END*/
+
+

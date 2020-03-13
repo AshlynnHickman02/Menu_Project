@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 html{
-    background: linear-gradient(rgb(235, 35, 35), rgb(173, 24, 24));
+    background-image: url(../pictures/menu_background.jpg);
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* body styles */
@@ -14,7 +16,6 @@ p.price{
     padding-bottom: 5px;
 }
 table, th, td{
-    border: 1px green solid;
     text-align: left;
     width: 85%;
 }
@@ -36,13 +37,12 @@ table td{
     width: 25%;
 }
 h3{
-    width: 20.48em;
+    width: 10em;
     background-color: rgb(255, 252, 49);
-    font-size: 25px;
-    border-top: 1px solid black;
-    padding-top: 1em;
-    padding-left: .5em;
-    padding-bottom: 1em;
+    margin-top: .5em;
+    font-size: 20px;
+    padding: .5em;
+    color: rgb(95, 17, 17);
 }
 #spicy{
     width: 1em;
@@ -51,4 +51,11 @@ table tr{
     border-image: url(../pictures/scroll.png) 30px cover;
     margin-top: .5em;
     background-image: url(../pictures/paper_background.jpg);
+}
+
+/* footer styles  */
+footer{ 
+    margin-left: .5em;
+    margin-right: .5em;
+    padding: .5em;
 }
