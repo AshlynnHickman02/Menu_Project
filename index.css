@@ -8,6 +8,7 @@ body, nav{
     background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
 }
+
 #main{
     background-color: rgba(51, 51, 51, .7);
     margin-top: 125px;

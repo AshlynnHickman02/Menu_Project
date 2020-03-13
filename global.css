@@ -6,7 +6,9 @@ html{
 }
 
 /* header styles */
-
+header a{
+    text-decoration: none;
+}
 header h1{
     background-color: rgb(255, 252, 49);
     height: 2.5em;
